@@ -14,7 +14,7 @@ const btn = (light, dark) => css`
   &:visited {
     color: white;
   }
-   background-image:  ssbackGroundStyle
+   background-image:  headervector
   border: 1px solid ${dark};
   &:hover {
     background-image: linear-gradient(${light}, ${dark});
@@ -90,7 +90,7 @@ export default styled.div`
       text-align: center;
       display: block;
       position: absolute;
-      background: url('https://media.giphy.com/media/130AxGoOaR6t0I/giphy.gif')
+      background: url('https://media.giphy.com/media/130AxGoOaR6t0I/')
         center center;
       background-size: fill;
       font-size: 2em;
